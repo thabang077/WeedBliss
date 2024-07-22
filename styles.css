@@ -347,29 +347,17 @@ nav {
 }
 
 .footer {
- 
   background-image: url("assets/compressed/wallpaperflare.com_wallpaper\ \(10\).jpg");
-  background-position: center;
+  background-position: center center;
   background-size: cover;
-  background-repeat: no-repeat; 
-  position: relative;
-  isolation: isolate;
+  background-repeat: no-repeat;
 }
-
-/* .footer ::after {
-content: '';
-position: absolute;
-z-index: -1;
-inset: 0;
-opacity: .3;
-} */
 
 .footer__logo img {
   max-width: 250px;
 }
 
 .footer__content {
-  
   margin-top: 2rem;
   display: grid;
   gap: 2rem;
@@ -404,7 +392,6 @@ opacity: .3;
   display: flex;
   align-items: center;
   gap: 1rem;
-  
 }
 
 .footer__socials a {
